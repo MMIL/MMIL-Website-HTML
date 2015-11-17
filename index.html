@@ -5,6 +5,8 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+		<script src="assets/js/jquery.min.js"></script>
 		<link rel="stylesheet" href="assets/css/main.css" />
 		
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
@@ -15,16 +17,33 @@
 
 			<!-- Header -->
 				<header id="header">
-					<h1 id="logo"><a href="index.html"><img src="assets/images/logo.jpg"></a></h1>
-					<nav id="nav">
-						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li>
-								<a href="#">Events</a>
-							</li>
-							<li><a href="projects.html">Projects</a></li>
-						</ul>
-					</nav>
+					<nav class="navbar navbar-default">
+					  <div class="container-fluid">
+					    <!-- Brand and toggle get grouped for better mobile display -->
+					    <div class="navbar-header">
+					      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					        <span class="sr-only">Toggle navigation</span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+					      </button>
+					      <a class="navbar-brand" id="logo" href="#"><img src="assets/images/logo.jpg" class="img-responsive"></a>
+					    </div>
+
+					    <!-- Collect the nav links, forms, and other content for toggling -->
+					    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					      <ul class="nav navbar-nav navbar-right">
+					        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+					        <li><a href="#">Link</a></li>
+					        <li><a href="#">Link</a></li>
+					        <li><a href="#">Link</a></li>
+					        <li><a href="#">Link</a></li>
+					      </ul>
+					    
+					     
+					    </div><!-- /.navbar-collapse -->
+					  </div><!-- /.container-fluid -->
+                   </nav>
 				</header>
 
 			<!-- Banner -->
@@ -41,8 +60,8 @@
 				</section>
 
 			<!-- One -->
-				<section id="one" class="spotlight style1 bottom">
-					<span class="image fit main"><img src="assets/images/pic02.jpg" alt="" /></span>
+				<section id="one" class="spotlight style1 bottom" style="background-image:url(assets/images/pic01.png);">
+					<span class="image fit main"><img src="assets/images/pic01.png" alt="" /></span>
 					<div class="content">
 						<div class="container">
 							<div class="row">
@@ -73,8 +92,8 @@
 				</section>
 
 			<!-- Two -->
-				<section id="two" class="spotlight style2 right">
-					<span class="image fit main"><img src="assets/images/pic03.jpg" alt="" /></span>
+				<section id="two" class="spotlight style2 right" style="background-image:url(assets/images/apps.jpg);">
+					<span class="image fit main"><img src="assets/images/apps.jpg" alt="" /></span>
 					<div class="content">
 						<header>
 							<h2>Interdum amet non magna accumsan</h2>
@@ -89,8 +108,8 @@
 				</section>
 
 			<!-- Three -->
-				<section id="three" class="spotlight style3 left">
-					<span class="image fit main bottom"><img src="assets/images/pic04.jpg" alt="" /></span>
+				<section id="three" class="spotlight style3 left" style="background-image:url(assets/images/apps.jpg);">
+					
 					<div class="content">
 						<header>
 							<h2>Interdum felis blandit praesent sed augue</h2>
@@ -145,11 +164,7 @@
 								</section>
 							</div>
 						</div>
-						<footer class="major">
-							<ul class="actions">
-								<li><a href="#" class="button">Magna sed feugiat</a></li>
-							</ul>
-						</footer>
+						
 					</div>
 				</section>
 			<!-- Footer -->
@@ -171,11 +186,6 @@
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
 
