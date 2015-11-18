@@ -1594,10 +1594,12 @@
 /* index page css */
 .navbar{
 	margin-bottom: 0px !important;
+	background-color: #272833;
+	border-bottom: 4px solid #00b2b3;
 }
 .navbar-brand 
 {
-	padding: 2px !important;
+	padding: 0px !important;
 	max-width: 120px;
 }
 
