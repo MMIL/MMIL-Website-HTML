@@ -6,8 +6,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
-		<script src="assets/js/jquery.min.js"></script>
-		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+		<link rel="stylesheet" href="assets/css/style.css" />
 		
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
@@ -17,7 +17,7 @@
 
 			<!-- Header -->
 				<header>
-					<nav class="navbar navbar-default">
+					<nav class="navbar navbar-default wow fadeInDown">
 					  <div class="container-fluid">
 					    <!-- Brand and toggle get grouped for better mobile display -->
 					    <div class="navbar-header">
@@ -36,6 +36,7 @@
 					        
 					        <li><a href="index.html">Home</a></li>
 					        <li><a href="products.html">Products</a></li>
+					        <li><a href="events.html">Events</a></li>
 					        <li><a href="team.html">Team</a></li>
 					 
 					      </ul>
@@ -48,23 +49,22 @@
 
 			<!-- Banner -->
 				<section id="banner">
-					<div class="content">
+					<div class="content wow fadeInLeft">
 						<header>
 							<h2>Microsoft Mobile Innovation Lab</h2>
-							<p>And there are no hoverboards or flying cars.<br />
-							Just apps. Lots of mother flipping apps.</p>
+							<p>Inspire Invent Innovate</p>
 						</header>
-						<span class="image"><img src="assets/images/mobile.png" alt="" /></span>
+						<span class="image"><img src="assets/images/mobile.jpg" alt="" /></span>
 					</div>
 					<a href="#one" class="goto-next scrolly">Next</a>
 				</section>
 
 			<!-- One -->
-				<section id="one" class="spotlight style1 bottom" style="background-image:url(assets/images/pic01.png);">
-					<span class="image fit main"><img src="assets/images/pic01.png" alt="" /></span>
+				<section id="one" class="spotlight style1 bottom" style="background-image:url(assets/images/develop.jpg);">
+					<span class="image fit main"><img src="assets/images/develop.jpg" alt="" /></span>
 					<div class="content">
 						<div class="container">
-							<div class="row">
+							<div class="row wow fadeInLeft">
 								<div class="4u 12u$(medium)">
 									<header>
 										<h2>Odio faucibus ipsum integer consequat</h2>
@@ -94,7 +94,7 @@
 			<!-- Two -->
 				<section id="two" class="spotlight style2 right" style="background-image:url(assets/images/apps.jpg);">
 					<span class="image fit main"><img src="assets/images/apps.jpg" alt="" /></span>
-					<div class="content">
+					<div class="content wow fadeInRight">
 						<header>
 							<h2>Interdum amet non magna accumsan</h2>
 							<p>Nunc commodo accumsan eget id nisi eu col volutpat magna</p>
@@ -110,7 +110,7 @@
 			<!-- Three -->
 				<section id="three" class="spotlight style3 left" style="background-image:url(assets/images/apps.jpg);">
 					
-					<div class="content">
+					<div class="content wow fadeInLeft">
 						<header>
 							<h2>Interdum felis blandit praesent sed augue</h2>
 							<p>Accumsan integer ultricies aliquam vel massa sapien phasellus</p>
@@ -127,8 +127,7 @@
 				<section id="four" class="wrapper style1 special fade-up">
 					<div class="container">
 						<header class="major">
-							<h2>Accumsan sed tempus adipiscing blandit</h2>
-							<p>Iaculis ac volutpat vis non enim gravida nisi faucibus posuere arcu consequat</p>
+							<center><h2>RECENT PROJECTS</h2></center>
 						</header>
 						<div class="box alt">
 							<div class="row uniform">
@@ -147,21 +146,6 @@
 									<h3>Cubilia cep lobortis</h3>
 									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
 								</section>
-								<section class="4u 6u$(medium) 12u$(xsmall)">
-									<span class="icon alt major fa-paper-plane"></span>
-									<h3>Non semper interdum</h3>
-									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
-								</section>
-								<section class="4u 6u(medium) 12u$(xsmall)">
-									<span class="icon alt major fa-file"></span>
-									<h3>Odio laoreet accumsan</h3>
-									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
-								</section>
-								<section class="4u$ 6u$(medium) 12u$(xsmall)">
-									<span class="icon alt major fa-lock"></span>
-									<h3>Massa arcu accumsan</h3>
-									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
-								</section>
 							</div>
 						</div>
 						
@@ -169,7 +153,7 @@
 				</section>
 			<!-- Footer -->
 				<footer id="footer">
-					<ul class="icons">
+					<ul class="icons wow shake">
 						<li><a href="#" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
 						<li><a href="#" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
 						<li><a href="#" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
@@ -186,8 +170,9 @@
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
-			<script src="assets/js/main.js"></script>
+			<script src="assets/js/wow.min.js"></script>
+			<script src="assets/js/bootstrap.min.js"></script>
+			<script src="assets/js/init.js"></script>
 
 	</body>
 </html>
