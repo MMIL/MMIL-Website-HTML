@@ -1592,10 +1592,13 @@
 
 	
 /* index page css */
+.navbar{
+	margin-bottom: 0px !important;
+}
 .navbar-brand 
 {
 	padding: 2px !important;
-	max-width: 130px;
+	max-width: 120px;
 }
 
 	.goto-next {
@@ -2070,11 +2073,13 @@
 				#banner .content header h2 {
 					font-size: 2.5em;
 					margin: 0;
+					color: #fff;
 				}
 
 				#banner .content header p {
 					margin: 0.5em 0 0 0;
 					top: 0;
+					color: #fff;
 				}
 
 			#banner .content .image {
@@ -2096,6 +2101,16 @@
 		background-attachment: scroll;
 	}
 
+   .content header h2 {
+					font-size: 2.5em;
+					margin: 0;
+					color: #fff;
+				}
+	 .content p {
+					margin: 0.5em 0 0 0;
+					top: 0;
+					color: #fff;
+				}
 /* Footer */
 
 	#footer {
@@ -2418,7 +2433,7 @@
 				-ms-transition: -ms-transform 0.5s ease;
 				transition: transform 0.5s ease;
 				padding-bottom: 1px;
-				padding-top: 44px !important;
+
 			}
 
 
@@ -2529,7 +2544,7 @@
 /* Main */
 
 	#main {
-		padding-top: 100px;
+		
 		-moz-transition: opacity 0.75s ease, right 0.75s ease, left 0.75s ease, visibility 0.75s;
 		-webkit-transition: opacity 0.75s ease, right 0.75s ease, left 0.75s ease, visibility 0.75s;
 		-ms-transition: opacity 0.75s ease, right 0.75s ease, left 0.75s ease, visibility 0.75s;
@@ -3049,3 +3064,47 @@
 				}
 
 		}
+
+/*Team Page Css*/
+#developers .row{
+	width: 100% !important;
+    padding-left: 0px !important;
+
+}
+#developers h3{
+	text-align: center;
+	padding-bottom: 20px;
+}
+.team-member{
+   text-align: center;
+   margin-bottom: 20px;
+
+}
+
+.team-member img{
+
+	max-width: 200px;
+	max-height: 200px;
+	border-radius: 550px;
+	background-color:#0086b3;
+}
+.member-name{
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+.profile{
+	font-style: italic;
+}
+@media screen and (min-width:768px ) {
+	.team-member img{
+	opacity: 0.9;
+   }
+	.team-member img:hover{
+	max-width: 200px;
+	max-height: 200px;
+	border-radius: 550px;
+	background-color:#00b2b3;
+	opacity: 1;
+   }
+}
+
