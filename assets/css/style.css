@@ -3123,11 +3123,19 @@
 /*Events page css*/
 .event-list{
 	margin:10px;
-	border:2px solid #3399ff;
-	padding: 10px;
+	border:10px solid ;
+    -webkit-border-image: url(../images/border.jpg) 20 round; /* Safari 3.1-5 */
+    -o-border-image: url(../images/border.jpg) 20 round; /* Opera 11-12.1 */
+    border-image: url(../images/border.jpg) 20 round;
+
+}
+.event-list img{
+	max-width: 300px;
+	max-height:250px;
 }
 .event-list p {
 	font-weight: bold;
+	background-color: #f0f0f0;
 }
 
 
