@@ -1,5 +1,6 @@
 @import url("font-awesome.min.css");
 @import url("http://fonts.googleapis.com/css?family=Roboto:100,300,100italic,300italic");
+@import url(http://fonts.googleapis.com/css?family=Varela+Round);
 
 
 
@@ -2027,7 +2028,7 @@
 	#banner {
 		background-attachment: fixed;
 		background-color: #272833;
-		background-image: url("../images/banner.jpg");
+		background-image: url("../images/desk.jpg");/*chnged from banner to desk1*/
 		background-position: center center;
 		background-size: cover;
 		box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
@@ -2068,19 +2069,24 @@
 
 			#banner .content header {
 				display: inline-block;
+				background-color: #fff;
+				padding: 10px;
 				vertical-align: middle;
+				opacity: .8;
 			}
 
 				#banner .content header h2 {
-					font-size: 2.5em;
-					margin: 0;
-					color: #fff;
+					font-size: 60px !important;					 
+					margin: 0;					
+					opacity: 1 !important;
+					font-family: "Varela Round";
+					color: #001966;
 				}
 
 				#banner .content header p {
 					margin: 0.5em 0 0 0;
 					top: 0;
-					color: #fff;
+					color: #001966;
 				}
 
 			#banner .content .image {
