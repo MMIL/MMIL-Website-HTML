@@ -3120,3 +3120,14 @@
    }
 }
 
+/*Events page css*/
+.event-list{
+	margin:10px;
+	border:2px solid #3399ff;
+	padding: 10px;
+}
+.event-list p {
+	font-weight: bold;
+}
+
+
