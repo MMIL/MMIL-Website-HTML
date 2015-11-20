@@ -1,4 +1,6 @@
-              new WOW().init();
+new WOW().init();
+
+
 var main = (function($) { var _ = {
 
 	/**

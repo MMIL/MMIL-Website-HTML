@@ -67,7 +67,7 @@
 							<div class="row wow fadeInLeft">
 								<div class="4u 12u$(medium)">
 									<header>
-										<h2>WHO ARE WE?</h2>
+										<h2>WHO ARE WE</h2>
 										<!--<p>Nascetur eu nibh vestibulum amet gravida nascetur praesent</p>-->
 									</header>
 								</div>
@@ -75,7 +75,7 @@
 									<p>This society was  found in 2013 as JSS Mobile Innovation Lab under Sourabh Verma and Prince Kumar 
 									along with the faculty coordinator Mr.Manoj Kumar. In 2014, name changed to 
 									Microsoft Mobile Innovation Lab. The society organizes the workshops to facilitate learning in the students.
-</p>
+                                   </p>
 								</div>
 								<div class="4u$ 12u$(medium)">
 									<p>We believe in saying no to thousands of projects, so that we can really focus on the few that are truly important and meaningful to us.
@@ -92,7 +92,7 @@
 					<span class="image fit main"><img src="assets/images/apps.jpg" alt="" /></span>
 					<div class="content wow fadeInRight">
 						<header>
-							<h2>WHAT IS OUR VISION?</h2>
+							<h2>WHAT IS OUR VISION</h2>
 							<!--<p>Nunc commodo accumsan eget id nisi eu col volutpat magna</p>-->
 						</header>
 						<p>In the past two years we have organised several workshops based on:<br>
@@ -103,7 +103,7 @@
 							We believe that we are on the face of the earth to make great products and that's not changing. We are constantly focusing on innovating. We believe in the simple not the complex.
 						</p>
 						<ul class="actions">
-							<li><a href="#" class="button">Learn More</a></li>
+							<!-- <li><a href="#" class="button">Learn More</a></li> -->
 						</ul>
 					</div>
 					<a href="#three" class="goto-next scrolly">Next</a>
@@ -114,45 +114,59 @@
 					
 					<div class="content wow fadeInLeft">
 						<header>
-							<h2>WHAT WE DO?</h2>
+							<h2>WHAT WE DO</h2>
 							<!--<p>Accumsan integer ultricies aliquam vel massa sapien phasellus</p>-->
 						</header>
 						<p>Feugiat accumsan lorem eu ac lorem amet ac arcu phasellus tortor enim mi mi nisi praesent adipiscing. Integer mi sed nascetur cep aliquet augue varius tempus lobortis porttitor lorem et accumsan consequat adipiscing lorem.</p>
 						<ul class="actions">
-							<li><a href="#" class="button">Learn More</a></li>
+							<!-- <li><a href="#" class="button">Learn More</a></li> -->
 						</ul>
 					</div>
 					<a href="#four" class="goto-next scrolly">Next</a>
 				</section>
 
-			<!-- Four -->
-				<section id="four" class="wrapper style1 special fade-up">
-					<div class="container">
-						<header class="major">
-							<center><h2>RECENT PROJECTS</h2></center>
-						</header>
-						<div class="box alt">
-							<div class="row uniform">
-								<section class="4u 6u(medium) 12u$(xsmall)">
-									<span class="icon alt major fa-area-chart"></span>
-									<h3>Ipsum sed commodo</h3>
-									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
-								</section>
-								<section class="4u 6u$(medium) 12u$(xsmall)">
-									<span class="icon alt major fa-comment"></span>
-									<h3>Eleifend lorem ornare</h3>
-									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
-								</section>
-								<section class="4u$ 6u(medium) 12u$(xsmall)">
-									<span class="icon alt major fa-flask"></span>
-									<h3>Cubilia cep lobortis</h3>
-									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
-								</section>
-							</div>
-						</div>
-						
-					</div>
-				</section>
+
+               
+			<!-- Four -->				
+</div>
+ <section id="slides">
+                 <header>
+				<center><h1>HOW WE DELIVER</h1></center>
+				</header>
+	<!-- slider -->
+	<div class="slider">
+		<div class="arrival-grids">			 
+			 <ul id="flexiselDemo1">
+				 <li>
+					 <img src="assets/images/slides/1.jpg" alt=""/>
+					
+				 </li>
+				 <li>
+					 <img src="assets/images/slides/2.jpg" alt=""/>
+					
+				 </li>
+				 <li>
+					 <img src="assets/images/slides/3.jpg" alt=""/>
+					
+				 </li>
+				 <li>
+					 <img src="assets/images/slides/4.jpg" alt=""/>
+					
+				 </li>
+				 <li>
+					 <img src="assets/images/slides/5.jpg" alt=""/>
+					
+				 </li>
+				 <li>
+					 <img src="assets/images/slides/6.jpg" alt=""/>
+					
+				 </li>
+				</ul>
+					 
+		</div>
+	</div>
+	<!-- //slider -->
+</section>
 			<!-- Footer -->
 				<footer id="footer">
 					<ul class="icons wow shake">
@@ -167,14 +181,41 @@
 					</ul>
 				</footer>
 
-		</div>
-
 		<!-- Scripts -->
+		
 			<script src="assets/js/jquery.min.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/wow.min.js"></script>
 			<script src="assets/js/bootstrap.min.js"></script>
 			<script src="assets/js/init.js"></script>
+			<script type="text/javascript">
+				 $(window).load(function() {			
+				  $("#flexiselDemo1").flexisel({
+					visibleItems: 4,
+					animationSpeed: 1000,
+					autoPlay: true,
+					autoPlaySpeed: 3000,    		
+					pauseOnHover:true,
+					enableResponsiveBreakpoints: true,
+					responsiveBreakpoints: { 
+						portrait: { 
+							changePoint:480,
+							visibleItems: 1
+						}, 
+						landscape: { 
+							changePoint:640,
+							visibleItems: 2
+						},
+						tablet: { 
+							changePoint:768,
+							visibleItems: 3
+						}
+					}
+				});
+				});
+				</script>
+				<script type="text/javascript" src="assets/js/jquery.flexisel.js"></script>		
+			
 
 	</body>
 </html>
