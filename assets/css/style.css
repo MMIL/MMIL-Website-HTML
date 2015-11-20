@@ -2739,6 +2739,7 @@
 
 			#thumbnails article h2, #thumbnails article p {
 				display: none;
+				opacity: .5;
 			}
 
 			#thumbnails article.active .thumbnail:before {
